@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.microsoft_logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+.box{
+    width: 75px;
+    height: 75px;
+}
+
+.red{
+    background-color: #F35325;
+}
+
+.green{
+    background-color: #81BC06;
+}
+
+.blue{
+    background-color: #05A6F0;
+}
+
+.yellow{
+    background-color: #FFBA08;
+}

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    animation: roll 15s linear 0.5s infinite;
+}
+
+.ball{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.eclipse{
+    position: absolute;
+    width: 4vw;
+    height: 12vw;
+    border-radius: 50%;
+    border: 0.6vw solid aqua;
+}
+
+.eclipse1{
+    transform: rotate(30deg);
+}
+
+.eclipse2{
+    transform: rotate(-30deg);
+}
+
+.eclipse3{
+    transform: rotate(90deg);
+}
+
+@keyframes roll{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(177, 221, 223);
+}
+.logo{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque;
+    border-radius: 20px;
+}
+.netflix_logo{
+    height: 15rem;
+    width: 3rem;
+    border-left: 3rem solid #e50914;
+    border-right: 3rem solid #e50914;
+    position: relative;
+}
+
+.netflix_logo::before{
+    display: block;
+    content: "";
+    height: 100%;
+    width:100%;
+    transform: skewX(21.8deg);
+    background-color: #e50914;
+    box-shadow: 0 0 40px  black;
+}
